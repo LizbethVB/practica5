@@ -1,0 +1,60 @@
+:root{ /*atributo*/
+    --btn: rgb(22, 7, 238);
+    --fondoDiv: rgb(0, 0, 0);
+    --colortexto: rgb(120, 122, 103);
+    --iniciosesion : rgb(12, 27, 236);
+    --iniciarsesionbtn: gray;
+    --principalcolor: green;
+    --colorboton: purple;
+    --text: white;
+}
+.caja{
+    color: var(--text);
+}
+.btn{
+    background-color: var(--btn);
+    padding: 10px 10px;
+    color: var(--text);
+    border-radius: 10px;
+    border: 0px;
+    position: relative;
+    top: -15px;
+}
+.btn:hover{
+    background-color: var(--btn);
+}
+.Principal{
+    background-color: var(--colorboton);
+    padding: 6px 7px;
+    color: var(--text);
+    border-radius: 7px;
+    border: 16px;
+    font-size: 20px;
+}
+.iniciarSesion{
+    background-color: var(--iniciarsesionbtn);
+    padding: 6px 7px;
+    color: var(--text);
+    border-radius: 7px;
+    border: 16px;
+    font-size: 20px;
+}
+.Principal:hover{
+    background-color: var(--principalcolor);
+    cursor: pointer;
+}
+.iniciarSesion:hover{
+    background-color: var(--iniciosesion);
+    cursor: pointer;
+}
+.a{
+    color: var(--colortexto);
+    text-align: justify;
+}
+.correo,.pswrd,.btn{
+    font-size: 20px;
+}
+.titulo,.form{
+    text-align: center;
+
+}
